@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Playfair;
+  src: url("./assets/fonts/PlayfairDisplay-Regular.ttf");
+}
+
+#root {
+  max-width: 1280px;
+  height: 22rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #242424;
+}
+
+/* Cards */
+.cardFrame {
+  font-family: Playfair;
+  height: 100%;
+  position: relative;
+  padding: 100px;
+  background-color: hsl(20, 72%, 33%);
+  border: #4b2e2a solid 6px;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.cardName {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.cardDesc {
+  position: absolute;
+  bottom: 10px;
+  background-color: #b6835e;
+  width: 75%;
+}
+
+.cardDesc hr {
+  border: black solid 1px;
+}
+
+p {
+  all: unset;
+}
+
+.stats {
+  font-weight: bold;
+}
+/* Cards */
